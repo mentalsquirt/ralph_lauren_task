@@ -40,7 +40,7 @@ def convert_to_3_channel(image):
   return image
 
 if __name__ == "__main__":
-  name = "77"
+  name = "28"
   cloth = cv2.imread(os.path.join(name, name + ".jpg"))
   cloth = convert_to_3_channel(cloth)
   mask = cv2.imread(os.path.join(name, name + "_mask.jpg"), 0)
