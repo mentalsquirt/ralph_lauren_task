@@ -6,7 +6,7 @@
 # useful for handling different item types with a single interface
 import os
 import scrapy
-from scrapy.pipelines.images import ImagesPipeline, ImageException
+from scrapy.pipelines.images import ImagesPipeline
 from Ralph_Lauren.settings import IMAGES_STORE
 
 class ClothingImagePipeline(ImagesPipeline):

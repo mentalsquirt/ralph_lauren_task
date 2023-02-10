@@ -13,4 +13,3 @@ def convert_to_jpeg(dir_path):
 if __name__ == "__main__":
   convert_to_jpeg("../imgs/cloth")
   convert_to_jpeg("../imgs/person")
-  
