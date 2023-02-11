@@ -4,10 +4,10 @@
 > The task can be found in task.pdf file in the repository.
 
 - In order to execute the scrapy spider, do:
-"""
+~~~
 ~/.../Ralph_Lauren/spiders | master
 scrapy crawl ralph_lauren
-"""
+~~~
 
 ## Report
 ### Task 1
